@@ -1,0 +1,339 @@
+body{
+	margin: 0;
+  	font-family: "Hiragino Kaku Gothic ProN";
+
+
+  }
+#top-wrapper{
+	width: 100%;
+	height: 700px;
+	margin:auto;
+	background-image: url("images/backgroundmountain.jpg");
+	background-size: cover;
+	opacity: 0.8;	
+	text-align: center;
+	color: white;
+  }
+
+  .container{
+  	width: 800px;
+  	margin: 0 auto;
+	opacity: 0.9;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.container h1{
+	font-size: 45px;
+}
+.container a{
+	font-size:35px;
+}
+
+#explain-wrapper{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	
+	
+}
+.pp{
+	color: black;
+}
+.explain_box {
+	width: 40%;
+	margin-left: 50px;
+	padding:30px;
+	display:block;
+	text-align: left;
+	float: left;
+	box-sizing: border-box;
+	
+	
+	
+}
+
+.explain_box a{
+	text-decoration: none;
+	}
+
+.btn {
+  padding: 8px 90px;
+  background-color:black;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.img_box{
+	width: 56%;
+	padding: 20px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	
+	
+}
+img{
+	width: 550px;
+	height: 300px;
+	margin-top:40px;
+	object-fit: cover;
+	opacity: 0.9;
+	border-radius: 30px;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color:rgba(220,220,220,0.6);
+	border-bottom:double grey;
+	position: fixed;
+	z-index: 10;
+	
+}
+
+.header_container{
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.header_right{
+	width: 500px;
+	height: 50px;
+	margin-right:0px;
+	float: right;
+	background-color: rgba(0,0,0,0);
+	}
+
+.header_left{
+	width: 100px;
+	height: 50px;
+	margin-left:0px;
+	float:left;
+}
+.header_menus{
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-right: dashed;
+	border-width: 1px;
+	box-sizing: border-box;
+
+
+}
+.header_menu{
+	margin:0 auto;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.header_contants1,.header_contants3{
+	width: 25%;
+	background-color: red;
+	float: left;
+	z-index: 9;
+	text-align: center;
+}
+.header_contants2,.header_contants4{
+	width: 25%;
+	background-color: grey;
+	float: left;
+	z-index: 9;
+	text-align: center;
+
+}
+.header_a{
+	clear: left;
+	display: block;
+	margin-top:10px;
+	text-decoration: none
+}
+
+.header_a{
+	display: none;
+}
+#sample-wrapper{
+	width: 100%;
+	height: 1500px;
+	margin:0 auto;
+	padding-top: 150px;
+	text-align: center;
+
+	
+
+}
+
+.sample_text{
+	
+	}
+
+#sample-wrapper img{
+	margin:40px 50px;
+}
+
+#sample-wrapper a{
+	list-style: none;
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	transform:translate(-50% ,-50%);
+
+}
+.sample_box{
+	float: left;
+	position: relative;
+	}
+
+.sample_imgs{
+	width: 150px;
+	height: 35px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	background-color:grey;
+	opacity: 0.6;
+}
+
+.sample_box,p{
+	font-size: 20p
+}
+
+#text-wrapper{
+	width: 100%;
+	height: 400px;
+	background-image:url("images/backgroundfooter.jpg");
+	opacity: 0.9;
+	background-color: red;
+	text-align: center;
+	position: relative;
+}
+
+.container_review{
+  	width: 800px;
+  	height: 150px;
+  	margin: 0 auto;
+	background-color: rgba(209, 213, 213,0.2);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	
+	border-radius: 30px;
+	
+}
+.container_review ,p ,h4{
+	font-size: 15px;
+	color: white;
+}
+
+#key-wrapper{
+	width: 100%;
+	height: 600px;
+	opacity: 0.9;
+	background-color: white;
+}
+
+.key_img{
+	width: 400px;
+	height: 400px;
+	margin-top:80px;
+	margin-left:190px;
+	object-fit: cover;
+	opacity: 0.9;
+	border-radius: 200px;
+}
+
+.key_explain{
+	width: 500px;
+	height:500px;
+	float:right;
+	margin-right: 200px;
+	margin-top: 50px;
+	position: relative;
+
+}
+h5{
+	font-size: 30px;
+	color: black;
+}
+
+.textlis{
+	font-size: 20px;
+	list-style: none;
+	margin-bottom: 15px;
+
+}
+.downroad{
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+
+}
+.downroad2{
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	left: 150px;
+	
+}
+
+
+
+span{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+#footerroad{
+	width: 100%;
+	height: 400px;
+	background-image:url("images/backgroundfooter.jpg");
+	background-size: cover;
+	opacity: 0.9;
+	background-color: red;
+	position: relative;
+}
+
+.footer_container{
+	width: 500px;
+	height: 200px;
+	margin:0 auto;
+	
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+
+}
+h5{
+
+	font-size:20px;
+}
+
+footer{
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	float: left;
+	clear: left;
+}
+.footerp{
+	color: white;
+}
+
